@@ -1,0 +1,320 @@
+/* Shades of Yellow = #FFF0BC, #FFF6D6, #FFFBEF */
+html{
+    font-family: 'Lato', 'Open Sans', 'Roboto', sans-serif;
+    font-size: 62.5%;
+    color: #333333;
+    background: #FFFBEF;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.view{
+    margin: 1.5%;
+}
+
+.form-update-library label, h2{
+    font-size: 1.7rem;
+}
+
+.form-update-library form{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 2% auto;
+    padding: 2%;
+    background-color: #FFF6D6;
+    border-radius: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    font-size: 1.6rem;
+}
+
+p, #addBook{
+    font-size: 1.4rem;
+}
+
+.center-image{
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.navigation{
+    text-align: right;
+    background-color: #FFF6D6;
+    font-size: 1.7rem;
+    padding: 1% 0;
+    position: sticky;
+}
+
+.navigation a{
+    text-decoration: none;
+    padding: 1%;
+    color: #333333;
+}
+                
+.navigation a:hover,
+.navigation a:active{
+        background-color: #FFFBEF;
+        color: #E9BB65;
+        transition: 0.25s;
+}
+
+input[type=submit], a{
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+}
+
+.table-library,
+.table-book,
+#table-select{  
+    margin: 3% auto;
+    background-color: #FFF6D6;
+    padding: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 1rem;
+}
+
+.table-library{
+    width: 80%;
+}
+.table-book,
+#table-select{
+    width: 90%;
+}
+
+.table-library th, 
+.table-library td,
+#table-select th,
+#table-select td{
+    padding: 0.5%;
+    font-size: 1.5rem;
+}
+
+.table-book th,
+.table-book td,
+#check-out th,
+#check-out td{
+    padding: 0.4%;
+    font-size: 1.2rem;
+}
+
+.table-book td:nth-child(7){
+    width: 35%;
+}
+
+.table-book td:nth-child(6){
+    width: 7%;
+}
+
+.table-book td:nth-child(3){
+    width: 14%;
+}
+
+.table-library a,
+.table-book a{
+    text-decoration: none;
+    padding: 1%;
+    color: #E9BB65;
+}
+
+.table-library a:hover,
+.table-library .active,
+.table-book a:hover,
+.table-book .active{
+        color: #A56436;
+        transition: 0.25s;
+}
+
+#add-book-btn{
+    background-color: #E9BB65; 
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 1%; 
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 9%;
+    right: 2%;
+}
+
+#addBook{
+    width: 50%;
+    margin: auto;
+    background-color: #FFF6D6;
+    padding: 3em;
+    border-radius: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 5em;
+}
+
+.box{
+    display: flex;
+}
+
+.column {
+    width: 50%;
+}
+
+#title-section{
+    margin-left: 5%;
+}
+
+.box input,
+.box select,
+.box textarea,
+#title-section input[type="text"],
+.form-update-library input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+.box input,
+.box select,
+.box textarea{
+    width: 90%;
+}
+
+#title-section input[type="text"]{
+    width: 60%;
+}
+
+#addBook input[type="submit"],
+#member-section input[type="submit"],
+#title-section input[type="submit"],
+#table-select input[type="submit"],
+#check-out input[type="submit"],
+#Done input[type="submit"]{
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+}
+
+#addBook input[type="submit"]{
+    width: 12%;
+    background: #FFFBEF;
+}
+
+#member-section input[type="submit"]{
+    width: 20%;
+    background: #FFF6D6;
+}
+
+.form-update-library input[type="submit"]{
+    width: 20%;
+    background: #FFFBEF;
+}
+
+#title-section input[type="submit"]{
+    width: 8%;
+    background: #FFF6D6;
+}
+
+#table-select input[type="submit"],
+#check-out input[type="submit"],
+#Done input[type="submit"]{
+    background: #E9BB65;
+    color: #fff;
+}
+
+.center-text input[type="submit"]{
+    background: #FFFBEF;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+}
+
+#table-select input[type="submit"]{
+    width: 8%;
+}
+
+#check-out input[type="submit"]{
+    width: 20%;
+}
+
+#member-section{
+    display: flex;
+    align-items: center;
+}
+
+#member-section div,
+#member-section form{
+    width: 27%;
+}
+
+#member-section form{
+    margin: 0% 2%;
+}
+
+#member-id label,
+#member-id input{
+    margin: 3%;
+}
+
+#member-section div{
+    background-color: #FFF6D6;
+    border-radius: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#member-section input[type="text"]{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+#title-section label,
+#title-section input{
+    margin: 2% 2% 0% 0%;
+}
+
+#check-out{
+    width: 28%;
+    position: absolute;
+    right: 5%;
+    top: 12%;
+    background-color: #FFF6D6;
+    border-radius: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2%;
+}
+
+.row {
+    position: relative;
+}
+
+#Done{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+.center-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% auto;
+    background-color: #FFF6D6;
+    border-radius: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 2%;
+}
